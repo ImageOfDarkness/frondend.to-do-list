@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  .MuiPaper-root {
+    padding: 20px;
+  }
+  .container {
+  }
+  .header {
+    .MuiFormControl-root,
+    button {
+      margin: 0 5px;
+    }
+  }
+}
